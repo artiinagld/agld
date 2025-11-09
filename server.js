@@ -11,6 +11,7 @@ app.use(cors());
 app.use(express.json());
 
 // Blockchain configuration
+// TEMPORARY: Hardcoded for testing (move back to .env later)
 const SEPOLIA_RPC = process.env.SEPOLIA_RPC_URL || 'https://eth-sepolia.g.alchemy.com/v2/w_pZXg7vRo8iaqptsJyH1';
 const ARTIINA_NFT_ADDRESS = process.env.ARTIINA_NFT_ADDRESS || '0x68e00fC57974b9AeDd8f436E207BFf7B673132CC';
 
