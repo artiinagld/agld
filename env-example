@@ -1,0 +1,20 @@
+# Artiina Backend Environment Variables
+# Copy this file to .env and fill in your actual values
+# NEVER commit the .env file to GitHub!
+
+# Server Configuration
+PORT=3000
+NODE_ENV=production
+
+# Ethereum Network (Sepolia Testnet)
+# Get this from Alchemy: https://www.alchemy.com/
+SEPOLIA_RPC_URL=your_alchemy_sepolia_url_here
+
+# Contract Addresses (from your Sepolia deployment)
+ARTIINA_NFT_ADDRESS=your_contract_address_here
+ARTIINA_VALIDATOR_ADDRESS=your_validator_address_here
+
+# Notes:
+# - Keep your .env file secure and never share it
+# - The .gitignore file prevents .env from being committed
+# - Set these variables directly on your server via SSH or hosting panel
